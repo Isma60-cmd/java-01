@@ -76,8 +76,10 @@ double average=total/5; System.out.println("average "+average);
 int[] marks={bio,maths,phy,chem,geog};
 char grade;
 for(int mark:marks){
-if(mark>80)
+if(mark>80){
     grade='A';
+    System.out.println(mark+" "+ grade);
+}
     
     else if(mark>70){
         grade='B';
@@ -85,7 +87,7 @@ if(mark>80)
     
     else if(mark>60){
        grade='C';
-     System.out.println(mark+ grade); }
+     System.out.println(mark+" "+ grade); }
 
        else if(mark>50) {grade='D'; }
        else{grade='F';
@@ -121,19 +123,19 @@ for(int i=1;i<13;i++){
 
 }*/
 
-/*public int factorial(int x){
+ /*static int factorial(int x){
     if(n>1){
     return x*factorial(x-1);}
-else return 1
+else return 1;
 }
 
 public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
 System.out.println("enter positive integer");
-int y=input.nextInt();
-factorial(int y);
+int x=input.nextInt();
+factorial(int x);
 
-}*/
 
-}
+
+}*/}
 

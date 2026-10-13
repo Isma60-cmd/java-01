@@ -169,6 +169,13 @@ if (age<6){
     welcome(age);
 
 input.close();
+int n=3;
+double number=12.34567;
+double rounded=Math.round(number*100.0)/100.0;
+System.out.println(rounded);
+double factor=Math.pow(10,n);
+double round=Math.round(number*factor)/factor;
+System.out.println(round);
  }
 }
 
