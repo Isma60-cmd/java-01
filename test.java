@@ -166,7 +166,7 @@ public class test{
         boolean isonline =true;
         boolean isblocked=false;
         boolean hasinternet=true;
-        boolean readit=false;
+        //boolean readit=false;
         System.out.println("online" +isonline);
 
         unreadmessages=3;

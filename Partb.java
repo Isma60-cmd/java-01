@@ -19,7 +19,6 @@ guess=input.nextInt();
 
 }while(guess!=x);
 
-
+input.close();
     }
-    
 }

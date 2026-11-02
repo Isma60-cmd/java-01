@@ -58,5 +58,6 @@ student1.name="peter";
 
 lab7 student2=new lab7("2600704668","peter",34);
 System.out.println("number of students "+lab7.studentsnumber);
+student2.displaydetails();
 }
 }

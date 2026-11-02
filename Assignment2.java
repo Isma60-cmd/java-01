@@ -33,9 +33,9 @@ int sum=0;
 for(int number: numbers){
     
     sum+=number;
-    double average=sum/10;
+    
     IO.println(sum);
-}
+}double average=sum/10;
 int max =numbers[0];
 for(int number :numbers){
     if (number>max){max = number;
@@ -48,6 +48,6 @@ Arrays.sort(numbers);
 System.out.println(Arrays.toString(numbers));
 
 
-
+input.close();
 }
 }

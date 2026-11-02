@@ -20,12 +20,12 @@ public class Book{
 
          public String getAuthor(){
         return author;}
-       public void setAuthor(){
+       public void setAuthor(String author){
         this.author=author;}
 
          public double getPrice(){
         return price;}
-       public void setPrice(){
+       public void setPrice(double price){
         this.price=price;}
 
         
@@ -54,6 +54,7 @@ public class Book{
         book1.displayinfo();
 
            Book book2=new Book("things fall apart","Chinua Achebe",5000.0);
+           book2.setAuthor("ACHEBE");
            Book book3=new Book("ruins of a star","star",2000);
          book2.displayinfo();
            book3.displayinfo();

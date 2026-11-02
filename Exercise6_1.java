@@ -1,5 +1,5 @@
 public class Exercise6_1 {
-    class Book{
+    static class Book{
       private  String title,author;
        private double price;
 
@@ -13,10 +13,11 @@ public class Exercise6_1 {
        public void setAuthor(){
         author="unkown";}
 
-         public doduble getPrice(){
+         public double getPrice(){
         return price;}
        public void setPrice(){
         price=0.0;}
+        Book(){}
 
         Book(String title,String author,double price){
             this.title=title;
@@ -33,21 +34,25 @@ public class Exercise6_1 {
         }
 
 
-    }
+    
     public static void main(String[] args) {
         Book book1=new Book();
-         System.out.println(book1.setTitle);
-          System.out.println(book1.setAuthor);
-           System.out.println(book1.getPrice);
 
+        //deffault values without instanciating
+         System.out.println(book1.getTitle());
+          System.out.println(book1.getAuthor() );
+           System.out.println(book1.getPrice());
+
+           
+           
            Book book2=new Book("things fall apart","Chinua Achebe",5000.0);
-           Book book3=newBook("ruins of a star","star",2000);
-           displayinfo(book2);
-           displayinfo(book3);
+           Book book3=new Book("ruins of a star","star",2000);
+           book2.displayinfo();
+           book3.displayinfo();
            
-           book1.applyaDiscount(10);
+           book1.applyDiscount(10);
            
     }
 
-    }
+    }}
 

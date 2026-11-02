@@ -56,7 +56,7 @@ calculator(x, y);
 public static void main(String[] args) {
     
 
-int i, maths,bio,phy,chem,geog;
+int  maths,bio,phy,chem,geog;
 
 Scanner input=new Scanner(System.in);
 System.out.println("enter following marks");
@@ -93,7 +93,8 @@ if(mark>80){
        else{grade='F';
    System.out.println(mark+ grade); }
 
-}}
+}
+input.close();}
 
 
 

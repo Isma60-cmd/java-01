@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class Exercise3_2 {
+public class Exercise3_1 {
     public static void main(String[] args) {
         
         int maths;
@@ -100,7 +100,7 @@ System.out.println("Your mark in biology is "+biology+"% which is an "+grade);
 
 
 
-
+input.close();
 
 }}
 

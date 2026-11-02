@@ -26,5 +26,7 @@ public class forloop {
 
 
         }
+    input.close();
+    
     }
 }

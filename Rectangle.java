@@ -44,6 +44,7 @@ public class Rectangle {
            
                
         }
+        input.close();
 
     } 
 }

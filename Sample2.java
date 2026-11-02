@@ -17,7 +17,7 @@ while(guess!= x){
         System.out.println("too low!try again");
     }else {System.out.println("correct you guessed it");}
     
-}
+}input.close();
 }
 
     } 
